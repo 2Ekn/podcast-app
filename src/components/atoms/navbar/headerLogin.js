@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 function HeaderLogin() {
     return (
         <div className="flex flex-col items-center text-orange-500 hover:text-orange-400 cursor-pointer">
-            <a href="/logIn">
+            <Link to="/login-page">
                 <i className="fa fa-user text-2xl" aria-hidden="true"></i>
-            </a>
-            <a href="/profile" className="text-lg">
+            </Link>
+            <Link to="/login-page" className="text-lg">
                 Logga in
-            </a>
+            </Link>
         </div>
     );
 }

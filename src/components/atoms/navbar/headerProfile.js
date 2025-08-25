@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 function HeaderProfile(){
     return(
         <div className="flex flex-col items-center text-orange-500 hover:text-orange-400 cursor-pointer">
-            <a href="/profile">
+            <Link href="/profile">
                 <i class="fa-solid fa-user"></i>
-            </a>
-            <a href="/profile">
+            </Link>
+            <Link href="/profile">
                 Profil
-            </a>
+            </Link>
             
         </div>
     );
