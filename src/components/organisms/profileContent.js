@@ -2,7 +2,9 @@ import EditForm from "../molecules/editForm";
 import EditPassword from "../molecules/editPassword";
 import ProfileInfo from "../molecules/profileInfo";
 
-function ProfileContent() {
+async function ProfileContent() {
+
+    
     return (
         
         <div className="flex flex-col items-center justify-center w-full text-white">
