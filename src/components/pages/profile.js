@@ -1,6 +1,7 @@
 import Header from "../organisms/header";
 import Footer from "../organisms/footer";
 import tfkBg from '../../assets/tfkBg.png';
+import ProfileContent from "../organisms/profileContent";
 
 function Profile() {
     return (
@@ -8,10 +9,7 @@ function Profile() {
             style={{ backgroundImage: `url(${tfkBg})` }}
         >
             <Header />
-            <div>
-                <h1 className="text-4xl text-white font-bold mb-4">Profile Page</h1>
-                <p className="text-white text-lg">This is the profile page content.</p>
-            </div>
+                <ProfileContent />
             <Footer/>
         </div>
     );
